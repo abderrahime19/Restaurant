@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    background-color: rgb(1 1 1);
+}
+
+.background1 img{
+    height: 100%;
+    width: 80%;
+    padding-left: 10%;
+    z-index: -1;
+}
+.background1{
+    position: relative;
+}
+.ads{
+    position: absolute;
+    color: aliceblue;
+    top: 0%;
+    margin: 3% 43%;
+    height: 14%;
+    width: 14%;
+    text-align: center;
+}
+.ads b{
+    font-family: 'Charm', cursive;
+    font-size: 300%;
+    text-align: center;
+    color: #f9f9f9;
+}
+.ads strong{
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+    color: #f9f9f9;
+    letter-spacing: 5px;
+}
+.presentation{
+    position: absolute;
+    color: aliceblue;
+    top: 200px;
+    margin: 3% 22%;
+    text-align: center;
+    height: 35%;
+    width: 56%;
+    
+}
+.presentation p{
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    color: #f9f9f9;
+    letter-spacing: 3px;
+    
+}
+.header{
+    background-color: rgb(43, 21, 6);
+    height: 110px;
+    width: 100%;
+    position: relative;
+}
+.logo img{
+    /* background-color: rgba(0, 0, 0, 0.213); */
+    position: absolute;
+    margin: 0% 2%;
+    height: 95%;
+    width: 7%;
+}
+.hdl{
+    position: absolute;
+    /* background-color: blue; */
+    height: 60%;
+    width: 43%;
+    margin: 2% 3%;
+    right: 4%;
+    
+}
+.accueil{
+    margin: 1% 0%;
+}
+.menu{
+    margin: 1% 20%;
+}
+.propos{
+    margin: 1% 40%;
+}
+.reservation{
+    margin: 1% 60%;
+}
+.contact{
+    margin: 1% 80%;
+}
+.hddl{
+    position: absolute;
+    height: 80%;
+    width: 18%;
+    text-align: center;
+}
+.hddl a{
+        text-decoration: none;
+        color: #f9f9f9;
+        font-size: x-large;
+        font-family: cursive;
+}
+.hddl:hover{
+    border-radius: 15px 30px;
+    background-color: #1b0d03;
+    transition-duration: 0.5s;
+    transition-delay: 10ms;
+}
+.copyright{
+    position: relative;
+    background-color: rgb(43, 21, 6);
+    height: 6%;
+    width: 100%;
+    color: rgb(119 84 60);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.copyright i{
+    margin-left: 60%;
+}
+.copyright strong{
+    margin-left: 3%;
+}
+.meeenu{
+    position: relative;
+    font-size: large;
+    color: #f9f9f9;
+    margin-top: 0;
+}
+.meeenu h1{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+    padding: 90px;
+
+}
+.mn{
+    position: relative;
+    background-color: rgb(127 81 49 / 35%);
+    width: 100%;
+    height: 1000px;
+}
+.plats{
+    height: 1200px;
+}
+.desserts{
+    height: 1400px;
+}
+.desserts .mnl{
+    height: 27%;
+}
+.mn h2{
+    padding: 2% 1%;
+    font-family: cursive;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.mnl{
+    position: relative;
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    background-color: rgb(1 1 1);
+    margin-left: 7%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+}
+.mnl h4{
+    position: absolute;
+    font-family: 'Charm',cursive;
+    color: rgb(119 84 60);
+    margin: 5%;
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+.mnl img{
+    /* position: absolute; */
+    float: right;
+    height: 170px;
+    width: 170px;
+    /* margin-left: 66%;
+    /* margin-top: 6%; */
+    border-radius: 18px;
+}
+.mnl p{
+    font-family: cursive;
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    margin: 14% 3% ;
+    color: aquamarine;
+}
+.mnl p i{
+    margin-left: 73%;
+    color: coral;
+}
+/* propos */
+.sdf{
+    background-color: rgb(1 1 1);
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    font-family: 'Charm', cursive;
+}
+.sdf h1{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+    padding: 90px;
+    color: #f9f9f9;
+    margin-top: 0;
+}
+.ert{
+    position: relative;
+    display: block;
+    height: 22%;
+    width: 100%;
+    background-color: rgb(127 81 49 / 35%);
+    /* margin-left: 10%; */
+    margin-bottom: 2%;
+    /* border-radius: 10%; */
+}
+.ert h2{
+    color: #f9f9f9;
+    padding: 2% 4% 0%;
+    font-size: 32px;
+    text-decoration: underline;
+}
+.ert p{
+    font-size: x-large;
+    color: aquamarine;
+    padding: 0% 3% ;
+    text-align: center;
+}
+.ttt img{
+    float: right;
+    height: 30%;
+    width: 27%;
+}
+.ert strong{
+    font-family: "Charm", serif;
+}
+.jjj img{
+    float: left;
+    width: 13%;
+}
+.kkk img{
+    float: right;
+    width: 13%;
+    margin-right: 11%;
+}
+.bnm{
+    background-color: rgb(1 1 1);
+    position: relative;
+    width: 100%;
+    height: 800px;
+    font-family: 'Charm', cursive
+}
+.bnm h1{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+    padding: 90px;
+    color: #f9f9f9;
+    margin-top: 0;
+}
+.cvb{
+    position: absolute;
+    display: inline-block;
+    height: 55%;
+    width: 100%;
+    background-color: rgb(127 81 49 / 35%);
+}
+.jkl{
+    position: absolute;
+    display: inline-block;
+    height: 90%;
+    width: 45%;
+    background-color: rgb(1 1 1);
+    border-radius: 10%;
+    padding-left: 5% 5% 5% 5%;
+}
+.localisation{
+    margin: 1% 52%;
+}
+.info{
+    margin: 1% 3%;
+}
+.jkl h3{
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+}
+.jkl i{
+    height: 35px;
+    width: 34px;
+    margin-left: 3%;
+    font-size: 36px;
+    color: aquamarine;
+}
+.link a{
+    height: 35px;
+    width: 34px;
+}
+.link{
+    padding-left: 35%;
+    padding-top: 3%;
+}
+.jkl strong{
+    font-size: 20px;
+    color: aquamarine;
+    padding-left: 13%;
+}
+.localisation iframe{
+    width: 94%;
+    height: 65%;
+    margin-left: 3%;
+}
+.res{
+    background-color: rgb(1 1 1);
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    font-family: 'Charm', cursive
+}
+.res h1{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+    padding: 90px;
+    color: #f9f9f9;
+    margin-top: 0;
+}
+.ghj{
+    position: absolute;
+    display: inline-block;
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(127 81 49 / 35%);
+}
+form{
+    background-color: rgb(1 1 1);
+    margin: 3% 0% 0% 30%;
+    color: #f9f9f9;
+    padding: 3% 6% 0% 8%;
+    font-size: 25px;
+    height: 1000px;
+    width: 30%;
+    border-radius: 44px
+}
+input{
+    height: 30px;
+    width: 90%;
+    background-color: rgb(36 23 15);
+    color: #a8a8a8;
+}
+input:hover{
+    background-color: #4d322199;
+    transition-duration: 0.5s;
+    transition-delay: 10ms;
+}
+#submit{
+    background-color: #4d3221;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+#submit:hover{
+    background-color: #66432c;
+    transition-duration: 0.5s;
+    transition-delay: 10ms;
+}

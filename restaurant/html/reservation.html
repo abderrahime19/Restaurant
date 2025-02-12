@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="/css/accueil.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/html/accueil.html"><img src="/images/logorest.png" alt="AjiKool"></a>
+        </div>
+        <div class="hdl">
+            <div class="hddl accueil"><a href="http://127.0.0.1:5500/html/accueil.html">Accueil</a></div>
+            <div class="hddl menu"><a href="http://127.0.0.1:5500/html/menu.html">Menu</a></div>
+            <div class="hddl propos"><a href="http://127.0.0.1:5500/html/propos.html">À propos</a></div>
+            <div class="hddl reservation"><a href="http://127.0.0.1:5500/html/reservation.html">Réservation</a></div>
+            <div class="hddl contact"><a href="http://127.0.0.1:5500/html/contact.html">Contact</a></div>
+        </div>
+    </div>
+    <div class="res">
+        <h1>Réservation</h1>
+        <div class="ghj">
+        <form name="formul" action="" onsubmit="return verification()" >
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Ex : Abderrahime"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Ex : Elkourchi"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="ex : ajikool.restaurant@gmail.com"><br><br>
+            <label for="tel">Téléphone:</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="Ex : 0666666666"><br><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" ><br><br>
+            <label for="time">Heure:</label><br>
+            <input type="time" id="time" name="time" ><br><br>
+            <label for="nbP">Nombre de personnes:</label><br>
+            <input type="number" id="nbP" name="nbP" placeholder="Ex : 01"><br><br>
+            <input id="submit" type="submit" placeholder="Submit">
+        </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <strong>Copyright © 2025 AjiKool Restaurant</strong>
+        <i>Powered by Abderrahime Elkourchi</i>
+    </div>
+    <script src="/js/reservation.js"></script>
+</body>
+</html>
